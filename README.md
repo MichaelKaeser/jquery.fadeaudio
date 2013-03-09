@@ -1,7 +1,7 @@
 jquery.fadeaudio
 ================
 
-FadeAudio: HTML5 Audio Fade In, Fade Out jQuery Plugin
+FadeAudio: jQuery plugin to fade-in or fade-out HTML5 audio
 
 Pick a point in your audio file to fade in or out and control how 
 long the volume change lasts 
