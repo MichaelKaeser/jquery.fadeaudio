@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>jquery.fadeaudio | jQuery HTML5 Audio Fade In, Fade Out | By Keith Collins</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/jquery.fadeaudio.js"></script>
+</head>
+<body>
+
+	<div>
+	<h1>jquery.fadeaudio | jQuery HTML5 Audio Fade In, Fade Out</h1>
+	<h3>By Keith Collins</h3>
+	
+	<audio id="demo" preload="metadata">
+		<source src="audio/streetmusic-harmonica.mp3" type="audio/mpeg"></source>
+		<source src="audio/streetmusic-harmonica.ogg" type="audio/ogg"></source>
+		<source src="audio/streetmusic-harmonica.wav" type="audio/wav"></source>	
+	</audio>
+	
+	</div>
+
+	<script type="text/javascript">
+	// FadeAudio with options
+		$('#demo')[0].play();
+		$('#demo').fadeaudio({
+			fade_in_start: 0,
+			fade_in_interval: 200,
+			fade_out_start: 50,
+			fade_out_interval: 200,
+			step: 0.02
+		});
+	</script>
+
+
+</body>
+</html>
