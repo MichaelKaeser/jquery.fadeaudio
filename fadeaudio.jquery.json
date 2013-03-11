@@ -1,0 +1,23 @@
+{
+    "name": "fadeaudio",
+    "title": "FadeAudio: jQuery plugin to fade-in or fade-out HTML5 audio",
+    "description": "Pick a point in your audio file to fade in or out and control how long the volume change lasts.",
+    "keywords": ["audio","fade", "fade-in", "fade-out", "player"],
+    "version": "0.0.1",
+    "author": {
+        "name": "Keith Collins",
+        "url": "http://www.keithcollins.net/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/keithcollins/jquery.fadeaudio/blob/master/License.txt"
+        }
+    ],
+    "homepage": "http://www.keithcollins.net/2012/04/16/html5-audio-fade/",
+    "docs": "http://github.com/keithcollins/jquery.fadeaudio/",
+    "demo": "http://www.keithcollins.net/2012/04/16/html5-audio-fade/",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
